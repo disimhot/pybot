@@ -1,14 +1,15 @@
+import config
 import os
 import telebot
 import json
 from bs4 import BeautifulSoup
 from flask import Flask, request
-from telegram.ext import CommandHandler
+from telegram.ext import CommandHandler, MessageHandler, Filters
 from bot.helper.bot_commands import BotCommands
 from bot import dispatcher, updater, LOGGER
 import requests
 
-# server = Flask(__name__)
+server = Flask(__name__)
 
 # @bot.message_handler(func=lambda msg: msg.text is not None)
 # def reply_to_message(message):
@@ -36,18 +37,23 @@ def bot_help(update, context):
     context.bot.sendMessage(update.message.chat_id,
                             reply_to_message_id=update.message.message_id,
                             text=help_string, parse_mode='HTMl')
+def echo(update, context):
+    """Echo the user message."""
+    update.message.reply_text(update.message.text)
 
 def main():
     start_handler = CommandHandler(BotCommands.StartCommand, start)
     help_handler = CommandHandler(BotCommands.HelpCommand, bot_help)
     dispatcher.add_handler(start_handler)
     dispatcher.add_handler(help_handler)
+    dispatcher.add_handler(MessageHandler(Filters.text, echo))
     LOGGER.info('START bot')
     updater.start_polling()
     updater.idle()
 
 
-main()
+if __name__ == '__main__':
+    main()
 
 
 # bot.infinity_polling()
