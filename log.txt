@@ -35,3 +35,1498 @@ TypeError: Object of type ExtBot is not JSON serializable
 2021-11-17 21:19:31,446 - apscheduler.scheduler - INFO - Scheduler started
 2021-11-17 21:20:29,483 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2021-11-17 21:20:29,483 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 17:46:20,917 - bot - INFO - START bot
+2021-11-20 17:46:20,918 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 17:47:41,224 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 17:47:41,225 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 17:47:54,820 - bot - INFO - START bot
+2021-11-20 17:47:54,821 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 17:48:09,486 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 17:48:09,487 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 17:48:13,689 - bot - INFO - START bot
+2021-11-20 17:48:13,690 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 17:49:23,375 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 17:49:23,376 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 17:49:39,110 - bot - INFO - START bot
+2021-11-20 17:49:39,111 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 17:57:33,579 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 17:57:33,580 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 17:57:48,579 - bot - INFO - START bot
+2021-11-20 17:57:48,580 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 17:59:39,912 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 17:59:39,912 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 17:59:55,880 - bot - INFO - START bot
+2021-11-20 17:59:55,881 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:04:13,878 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:04:13,881 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:04:48,934 - bot - INFO - START bot
+2021-11-20 18:04:48,935 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:05:28,157 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:05:28,158 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:18:42,336 - bot - INFO - START bot
+2021-11-20 18:18:42,337 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:19:01,839 - telegram.ext.dispatcher - ERROR - A promise with deactivated error handling raised an error.
+2021-11-20 18:23:20,665 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:23:20,666 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:25:41,354 - bot - INFO - START bot
+2021-11-20 18:25:41,354 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:25:41,530 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/utils/promise.py", line 96, in run
+    self._result = self.pooled_function(*self.args, **self.kwargs)
+TypeError: query_handler() missing 2 required positional arguments: 'update' and 'context'
+2021-11-20 18:30:03,663 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:30:03,664 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:30:06,837 - bot - INFO - START bot
+2021-11-20 18:30:06,838 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:30:07,137 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/utils/promise.py", line 96, in run
+    self._result = self.pooled_function(*self.args, **self.kwargs)
+TypeError: query_handler() missing 2 required positional arguments: 'update' and 'context'
+2021-11-20 18:31:35,320 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:31:35,321 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:31:40,885 - bot - INFO - START bot
+2021-11-20 18:31:40,886 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:31:41,058 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/utils/promise.py", line 96, in run
+    self._result = self.pooled_function(*self.args, **self.kwargs)
+TypeError: query_handler() missing 2 required positional arguments: 'update' and 'context'
+2021-11-20 18:32:42,912 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:32:42,912 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:36:03,732 - bot - INFO - START bot
+2021-11-20 18:36:03,733 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:36:30,770 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 38, in query_handler
+    uri = f'{context.chat_data.url}&title={update.message.text}'
+AttributeError: 'dict' object has no attribute 'url'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 49, in query_handler
+    error(e)
+TypeError: error() missing 2 required positional arguments: 'update' and 'error'
+2021-11-20 18:40:28,348 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:40:28,349 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:40:36,882 - bot - INFO - START bot
+2021-11-20 18:40:36,883 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:40:58,899 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 43, in query_handler
+    items = data['items']
+KeyError: 'items'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 50, in query_handler
+    error(e)
+TypeError: error() missing 2 required positional arguments: 'update' and 'error'
+2021-11-20 18:42:16,221 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:42:16,221 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:42:21,243 - bot - INFO - START bot
+2021-11-20 18:42:21,243 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:42:38,413 - bot - WARNING - Update "{'update_id': 423455034, 'message': {'date': 1637422957, 'chat': {'type': 'private', 'first_name': 'Elena', 'username': 'ElenaSergeevna', 'id': 63455677, 'last_name': 'Efimova'}, 'group_chat_created': False, 'new_chat_members': [], 'entities': [], 'delete_chat_photo': False, 'caption_entities': [], 'new_chat_photo': [], 'supergroup_chat_created': False, 'message_id': 487, 'text': 'testing', 'photo': [], 'channel_chat_created': False, 'from': {'language_code': 'ru', 'first_name': 'Elena', 'is_bot': False, 'last_name': 'Efimova', 'username': 'ElenaSergeevna', 'id': 63455677}}}" caused error "'items'"
+2021-11-20 18:43:05,679 - bot - WARNING - Update "{'update_id': 423455036, 'message': {'date': 1637422984, 'chat': {'type': 'private', 'first_name': 'Elena', 'username': 'ElenaSergeevna', 'id': 63455677, 'last_name': 'Efimova'}, 'group_chat_created': False, 'new_chat_members': [], 'entities': [], 'delete_chat_photo': False, 'caption_entities': [], 'new_chat_photo': [], 'supergroup_chat_created': False, 'message_id': 490, 'text': 'Software Quality Assurance Section', 'photo': [], 'channel_chat_created': False, 'from': {'language_code': 'ru', 'first_name': 'Elena', 'is_bot': False, 'last_name': 'Efimova', 'username': 'ElenaSergeevna', 'id': 63455677}}}" caused error "'items'"
+2021-11-20 18:43:13,302 - bot - WARNING - Update "{'update_id': 423455037, 'message': {'date': 1637422992, 'chat': {'type': 'private', 'first_name': 'Elena', 'username': 'ElenaSergeevna', 'id': 63455677, 'last_name': 'Efimova'}, 'group_chat_created': False, 'new_chat_members': [], 'entities': [], 'delete_chat_photo': False, 'caption_entities': [], 'new_chat_photo': [], 'supergroup_chat_created': False, 'message_id': 492, 'text': 'how to test?', 'photo': [], 'channel_chat_created': False, 'from': {'language_code': 'ru', 'first_name': 'Elena', 'is_bot': False, 'last_name': 'Efimova', 'username': 'ElenaSergeevna', 'id': 63455677}}}" caused error "'items'"
+2021-11-20 18:44:16,893 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:44:16,894 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:46:16,790 - bot - INFO - START bot
+2021-11-20 18:46:16,791 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:46:28,871 - bot - WARNING - Update "{'message': {'entities': [], 'new_chat_members': [], 'caption_entities': [], 'new_chat_photo': [], 'message_id': 498, 'supergroup_chat_created': False, 'delete_chat_photo': False, 'photo': [], 'text': 'how to test', 'group_chat_created': False, 'chat': {'username': 'ElenaSergeevna', 'id': 63455677, 'type': 'private', 'last_name': 'Efimova', 'first_name': 'Elena'}, 'channel_chat_created': False, 'date': 1637423188, 'from': {'is_bot': False, 'username': 'ElenaSergeevna', 'first_name': 'Elena', 'id': 63455677, 'language_code': 'ru', 'last_name': 'Efimova'}}, 'update_id': 423455040}" caused error "'items'"
+2021-11-20 18:48:18,318 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:48:18,319 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:48:22,529 - bot - INFO - START bot
+2021-11-20 18:48:22,530 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:48:37,715 - bot - WARNING - Update "{'message': {'new_chat_photo': [], 'delete_chat_photo': False, 'date': 1637423317, 'message_id': 506, 'group_chat_created': False, 'channel_chat_created': False, 'entities': [], 'caption_entities': [], 'text': 'how to test?', 'new_chat_members': [], 'chat': {'last_name': 'Efimova', 'type': 'private', 'username': 'ElenaSergeevna', 'first_name': 'Elena', 'id': 63455677}, 'supergroup_chat_created': False, 'photo': [], 'from': {'language_code': 'ru', 'is_bot': False, 'id': 63455677, 'last_name': 'Efimova', 'username': 'ElenaSergeevna', 'first_name': 'Elena'}}, 'update_id': 423455044}" caused error "'items'"
+2021-11-20 18:49:01,716 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:49:01,717 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:49:09,531 - bot - INFO - START bot
+2021-11-20 18:49:09,532 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:49:20,348 - bot - WARNING - Update "{'update_id': 423455047, 'message': {'entities': [], 'photo': [], 'message_id': 512, 'caption_entities': [], 'new_chat_members': [], 'supergroup_chat_created': False, 'chat': {'username': 'ElenaSergeevna', 'id': 63455677, 'last_name': 'Efimova', 'type': 'private', 'first_name': 'Elena'}, 'delete_chat_photo': False, 'text': 'how to test?', 'channel_chat_created': False, 'group_chat_created': False, 'new_chat_photo': [], 'date': 1637423359, 'from': {'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'is_bot': False, 'id': 63455677, 'language_code': 'ru', 'first_name': 'Elena'}}}" caused error "'Message' object has no attribute 'chats'"
+2021-11-20 18:50:02,896 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:50:02,897 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 18:50:13,317 - bot - INFO - START bot
+2021-11-20 18:50:13,318 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 18:50:35,869 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 49, in query_handler
+    context.bot.send_message(update.message.chats.id,
+AttributeError: 'Message' object has no attribute 'chats'
+2021-11-20 18:52:06,354 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 18:52:06,355 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 21:46:10,891 - bot - INFO - START bot
+2021-11-20 21:46:10,892 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 22:27:47,824 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 22:27:47,827 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 23:00:57,894 - bot - INFO - START bot
+2021-11-20 23:00:57,896 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 23:01:27,059 - bot - WARNING - Update "{'update_id': 423455056, 'message': {'chat': {'id': 63455677, 'username': 'ElenaSergeevna', 'type': 'private', 'first_name': 'Elena', 'last_name': 'Efimova'}, 'caption_entities': [], 'new_chat_members': [], 'delete_chat_photo': False, 'message_id': 531, 'text': 'how to test', 'date': 1637438486, 'entities': [], 'channel_chat_created': False, 'new_chat_photo': [], 'group_chat_created': False, 'supergroup_chat_created': False, 'photo': [], 'from': {'id': 63455677, 'language_code': 'ru', 'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'is_bot': False, 'first_name': 'Elena'}}}" caused error "bot.handle_api.handle_request() argument after ** must be a mapping, not list"
+2021-11-20 23:02:46,298 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 23:02:46,299 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 23:02:54,979 - bot - INFO - START bot
+2021-11-20 23:02:54,980 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 23:03:15,753 - bot - WARNING - Update "{'update_id': 423455060, 'message': {'new_chat_members': [], 'supergroup_chat_created': False, 'new_chat_photo': [], 'text': 'how to test', 'entities': [], 'group_chat_created': False, 'chat': {'id': 63455677, 'username': 'ElenaSergeevna', 'type': 'private', 'last_name': 'Efimova', 'first_name': 'Elena'}, 'channel_chat_created': False, 'date': 1637438595, 'photo': [], 'message_id': 539, 'delete_chat_photo': False, 'caption_entities': [], 'from': {'last_name': 'Efimova', 'username': 'ElenaSergeevna', 'language_code': 'ru', 'first_name': 'Elena', 'id': 63455677, 'is_bot': False}}}" caused error "'list' object has no attribute 'json'"
+2021-11-20 23:03:37,564 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 23:03:37,565 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 23:05:10,964 - bot - INFO - START bot
+2021-11-20 23:05:10,965 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 23:06:21,878 - bot - WARNING - Update "{'update_id': 423455063, 'message': {'photo': [], 'text': 'how to test', 'chat': {'type': 'private', 'first_name': 'Elena', 'id': 63455677, 'last_name': 'Efimova', 'username': 'ElenaSergeevna'}, 'date': 1637438781, 'new_chat_photo': [], 'caption_entities': [], 'delete_chat_photo': False, 'new_chat_members': [], 'group_chat_created': False, 'supergroup_chat_created': False, 'entities': [], 'message_id': 545, 'channel_chat_created': False, 'from': {'language_code': 'ru', 'id': 63455677, 'last_name': 'Efimova', 'is_bot': False, 'first_name': 'Elena', 'username': 'ElenaSergeevna'}}}" caused error "'dict' object has no attribute 'json'"
+2021-11-20 23:07:08,559 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 23:07:08,559 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 23:07:14,512 - bot - INFO - START bot
+2021-11-20 23:07:14,513 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 23:07:30,119 - bot - WARNING - Update "{'update_id': 423455066, 'message': {'channel_chat_created': False, 'group_chat_created': False, 'caption_entities': [], 'date': 1637438849, 'new_chat_members': [], 'photo': [], 'message_id': 551, 'new_chat_photo': [], 'chat': {'type': 'private', 'last_name': 'Efimova', 'username': 'ElenaSergeevna', 'first_name': 'Elena', 'id': 63455677}, 'supergroup_chat_created': False, 'text': 'how to test', 'delete_chat_photo': False, 'entities': [], 'from': {'first_name': 'Elena', 'language_code': 'ru', 'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'is_bot': False, 'id': 63455677}}}" caused error "bot.handle_api.handle_request() argument after ** must be a mapping, not list"
+2021-11-20 23:08:09,921 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 23:08:09,922 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 23:08:48,452 - bot - INFO - START bot
+2021-11-20 23:08:48,452 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 23:09:00,465 - bot - WARNING - Update "{'update_id': 423455069, 'message': {'group_chat_created': False, 'new_chat_members': [], 'supergroup_chat_created': False, 'entities': [], 'new_chat_photo': [], 'channel_chat_created': False, 'delete_chat_photo': False, 'photo': [], 'message_id': 557, 'date': 1637438939, 'chat': {'type': 'private', 'last_name': 'Efimova', 'username': 'ElenaSergeevna', 'first_name': 'Elena', 'id': 63455677}, 'text': 'how to test', 'caption_entities': [], 'from': {'username': 'ElenaSergeevna', 'first_name': 'Elena', 'language_code': 'ru', 'last_name': 'Efimova', 'id': 63455677, 'is_bot': False}}}" caused error "list indices must be integers or slices, not str"
+2021-11-20 23:09:48,035 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 23:09:48,036 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 23:18:12,757 - bot - INFO - START bot
+2021-11-20 23:18:12,758 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 23:24:34,419 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 23:24:34,419 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 23:24:50,330 - bot - INFO - START bot
+2021-11-20 23:24:50,330 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 23:27:58,655 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 23:27:58,656 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 23:28:13,446 - bot - INFO - START bot
+2021-11-20 23:28:13,447 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 23:49:55,450 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 23:49:55,451 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 23:50:13,489 - bot - INFO - START bot
+2021-11-20 23:50:13,490 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 23:57:53,770 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 23:57:53,773 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:01:22,003 - bot - INFO - START bot
+2021-11-21 00:01:22,004 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:05:22,230 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:05:22,231 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:17:30,357 - bot - INFO - START bot
+2021-11-21 00:17:30,358 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:17:35,929 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:17:35,930 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:17:51,991 - bot - INFO - START bot
+2021-11-21 00:17:51,992 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:19:22,006 - bot - ERROR - 'NoneType' object has no attribute 'chat_id'
+2021-11-21 00:19:51,525 - bot - ERROR - 'NoneType' object has no attribute 'chat_id'
+2021-11-21 00:21:06,000 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:21:06,001 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:21:29,721 - bot - INFO - START bot
+2021-11-21 00:21:29,722 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:22:23,544 - bot - ERROR - 'NoneType' object has no attribute 'chat_id'
+2021-11-21 00:35:04,457 - bot - INFO - START bot
+2021-11-21 00:35:04,459 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:35:22,879 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 46, in characters_page_callback
+    paginator = InlineKeyboardPaginator(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram_bot_pagination/__init__.py", line 23, in __init__
+    if current_page is None or current_page < 1:
+TypeError: '<' not supported between instances of 'set' and 'int'
+2021-11-21 00:35:31,622 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 46, in characters_page_callback
+    paginator = InlineKeyboardPaginator(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram_bot_pagination/__init__.py", line 23, in __init__
+    if current_page is None or current_page < 1:
+TypeError: '<' not supported between instances of 'set' and 'int'
+2021-11-21 00:36:15,226 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:36:15,227 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:36:50,635 - bot - INFO - START bot
+2021-11-21 00:36:50,636 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:37:19,288 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 46, in characters_page_callback
+    paginator = InlineKeyboardPaginator(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram_bot_pagination/__init__.py", line 23, in __init__
+    if current_page is None or current_page < 1:
+TypeError: '<' not supported between instances of 'str' and 'int'
+2021-11-21 00:37:21,785 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 46, in characters_page_callback
+    paginator = InlineKeyboardPaginator(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram_bot_pagination/__init__.py", line 23, in __init__
+    if current_page is None or current_page < 1:
+TypeError: '<' not supported between instances of 'str' and 'int'
+2021-11-21 00:38:04,667 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:38:04,668 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:38:14,948 - bot - INFO - START bot
+2021-11-21 00:38:14,948 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:40:04,314 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 51, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message_too_long
+2021-11-21 00:41:32,237 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:41:32,238 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:42:24,938 - bot - INFO - START bot
+2021-11-21 00:42:24,938 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:46:14,120 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:46:14,122 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:46:19,428 - bot - INFO - START bot
+2021-11-21 00:46:19,428 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:48:52,725 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 41, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 00:53:32,000 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:53:32,000 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:53:40,597 - bot - INFO - START bot
+2021-11-21 00:53:40,597 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:54:01,821 - bot - ERROR - Message text is empty
+2021-11-21 00:54:47,377 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:54:47,380 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:54:56,206 - bot - INFO - START bot
+2021-11-21 00:54:56,207 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 00:55:36,276 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 56, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-11-21 00:55:46,822 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 56, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-11-21 00:56:00,564 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 56, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-11-21 00:56:01,990 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 56, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-11-21 00:57:02,275 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 00:57:02,276 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 00:59:31,897 - bot - INFO - START bot
+2021-11-21 00:59:31,897 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:00:03,317 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 56, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-11-21 01:00:17,757 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:00:17,757 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:00:33,347 - bot - INFO - START bot
+2021-11-21 01:00:33,348 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:01:20,722 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 56, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-11-21 01:01:27,639 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 56, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-11-21 01:01:55,089 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 56, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-11-21 01:02:13,679 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 46, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 01:02:50,434 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:02:50,435 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:03:10,748 - bot - INFO - START bot
+2021-11-21 01:03:10,748 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:05:11,981 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 47, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 01:06:32,177 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:06:32,180 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:06:35,536 - bot - INFO - START bot
+2021-11-21 01:06:35,536 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:10:12,573 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:10:12,575 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:10:20,151 - bot - INFO - START bot
+2021-11-21 01:10:20,151 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:13:52,376 - bot - WARNING - Update "{'message': {'group_chat_created': False, 'message_id': 695, 'channel_chat_created': False, 'caption_entities': [], 'text': 'sanity testing', 'new_chat_photo': [], 'delete_chat_photo': False, 'photo': [], 'chat': {'username': 'ElenaSergeevna', 'id': 63455677, 'first_name': 'Elena', 'last_name': 'Efimova', 'type': 'private'}, 'new_chat_members': [], 'supergroup_chat_created': False, 'date': 1637446431, 'entities': [], 'from': {'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'id': 63455677, 'language_code': 'ru', 'is_bot': False, 'first_name': 'Elena'}}, 'update_id': 423455189}" caused error "list index out of range"
+2021-11-21 01:14:10,990 - bot - WARNING - Update "{'message': {'group_chat_created': False, 'message_id': 699, 'channel_chat_created': False, 'caption_entities': [], 'text': 'Не уточнять раздел', 'new_chat_photo': [], 'delete_chat_photo': False, 'photo': [], 'chat': {'username': 'ElenaSergeevna', 'id': 63455677, 'first_name': 'Elena', 'last_name': 'Efimova', 'type': 'private'}, 'new_chat_members': [], 'supergroup_chat_created': False, 'date': 1637446450, 'entities': [], 'from': {'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'id': 63455677, 'language_code': 'ru', 'is_bot': False, 'first_name': 'Elena'}}, 'update_id': 423455192}" caused error "list index out of range"
+2021-11-21 01:15:16,276 - bot - WARNING - Update "{'message': {'group_chat_created': False, 'message_id': 701, 'channel_chat_created': False, 'caption_entities': [], 'text': '/рудз', 'new_chat_photo': [], 'delete_chat_photo': False, 'photo': [], 'chat': {'username': 'ElenaSergeevna', 'id': 63455677, 'first_name': 'Elena', 'last_name': 'Efimova', 'type': 'private'}, 'new_chat_members': [], 'supergroup_chat_created': False, 'date': 1637446515, 'entities': [], 'from': {'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'id': 63455677, 'language_code': 'ru', 'is_bot': False, 'first_name': 'Elena'}}, 'update_id': 423455193}" caused error "list index out of range"
+2021-11-21 01:15:19,153 - bot - ERROR - 'NoneType' object has no attribute 'chat_id'
+2021-11-21 01:16:16,589 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:16:16,590 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:17:37,941 - bot - INFO - START bot
+2021-11-21 01:17:37,941 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:18:16,558 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 48, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 01:18:21,726 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 48, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 01:19:59,873 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:19:59,874 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:20:05,794 - bot - INFO - START bot
+2021-11-21 01:20:05,795 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:21:09,001 - bot - WARNING - Update "{'update_id': 423455205, 'message': {'caption_entities': [], 'date': 1637446868, 'supergroup_chat_created': False, 'channel_chat_created': False, 'chat': {'first_name': 'Elena', 'username': 'ElenaSergeevna', 'id': 63455677, 'type': 'private', 'last_name': 'Efimova'}, 'entities': [], 'photo': [], 'new_chat_photo': [], 'text': 'what is smoke testing', 'delete_chat_photo': False, 'group_chat_created': False, 'new_chat_members': [], 'message_id': 719, 'from': {'username': 'ElenaSergeevna', 'first_name': 'Elena', 'id': 63455677, 'is_bot': False, 'last_name': 'Efimova', 'language_code': 'ru'}}}" caused error "list index out of range"
+2021-11-21 01:21:35,751 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:21:35,752 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:21:42,321 - bot - INFO - START bot
+2021-11-21 01:21:42,322 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:25:32,605 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:25:32,606 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:26:25,957 - bot - INFO - START bot
+2021-11-21 01:26:25,957 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:28:26,076 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:28:26,077 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:28:40,095 - bot - INFO - START bot
+2021-11-21 01:28:40,096 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:31:34,554 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:31:34,554 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:31:52,262 - bot - INFO - START bot
+2021-11-21 01:31:52,263 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:33:22,697 - bot - WARNING - Update "{'message': {'new_chat_photo': [], 'caption_entities': [], 'message_id': 758, 'chat': {'id': 63455677, 'first_name': 'Elena', 'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'type': 'private'}, 'group_chat_created': False, 'date': 1637447601, 'channel_chat_created': False, 'text': 'how to write test cases', 'delete_chat_photo': False, 'entities': [], 'supergroup_chat_created': False, 'photo': [], 'new_chat_members': [], 'from': {'id': 63455677, 'is_bot': False, 'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'first_name': 'Elena', 'language_code': 'ru'}}, 'update_id': 423455227}" caused error "list index out of range"
+2021-11-21 01:34:00,155 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:34:00,155 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:34:04,382 - bot - INFO - START bot
+2021-11-21 01:34:04,382 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:34:49,069 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 548, in process_update
+    check = handler.check_update(update)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 579, in check_update
+    check = candidate.check_update(update)
+AttributeError: 'NoneType' object has no attribute 'check_update'
+2021-11-21 01:35:39,934 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:35:39,934 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:35:52,426 - bot - INFO - START bot
+2021-11-21 01:35:52,426 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:36:44,532 - bot - WARNING - Update "{'update_id': 423455239, 'message': {'caption_entities': [], 'photo': [], 'entities': [], 'message_id': 779, 'chat': {'last_name': 'Efimova', 'first_name': 'Elena', 'type': 'private', 'username': 'ElenaSergeevna', 'id': 63455677}, 'channel_chat_created': False, 'supergroup_chat_created': False, 'date': 1637447803, 'delete_chat_photo': False, 'new_chat_members': [], 'group_chat_created': False, 'new_chat_photo': [], 'text': 'how to build', 'from': {'username': 'ElenaSergeevna', 'id': 63455677, 'first_name': 'Elena', 'last_name': 'Efimova', 'is_bot': False, 'language_code': 'ru'}}}" caused error "list index out of range"
+2021-11-21 01:36:59,242 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:36:59,243 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:37:08,817 - bot - INFO - START bot
+2021-11-21 01:37:08,818 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:38:43,303 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:38:43,304 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:38:51,910 - bot - INFO - START bot
+2021-11-21 01:38:51,911 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:39:47,868 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 548, in process_update
+    check = handler.check_update(update)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 579, in check_update
+    check = candidate.check_update(update)
+AttributeError: 'NoneType' object has no attribute 'check_update'
+2021-11-21 01:39:52,695 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:39:52,696 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:40:30,221 - bot - INFO - START bot
+2021-11-21 01:40:30,222 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:41:18,354 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 01:41:18,354 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 01:41:36,690 - bot - INFO - START bot
+2021-11-21 01:41:36,691 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 01:42:13,270 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 42, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 01:42:19,312 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 42, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 01:42:20,978 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_api/__init__.py", line 42, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 01:42:33,979 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 548, in process_update
+    check = handler.check_update(update)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 579, in check_update
+    check = candidate.check_update(update)
+AttributeError: 'NoneType' object has no attribute 'check_update'
+2021-11-21 06:59:38,046 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1074d9820>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates
+2021-11-21 07:00:08,056 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1074d9670>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates
+2021-11-21 10:00:03,251 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1074d9a30>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates
+2021-11-21 10:00:33,263 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1074983d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-11-21 10:00:33,264 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 140, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 149, in _new_conn
+    raise NewConnectionError(
+telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1074983d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1074983d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1074983d0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-11-21 11:25:37,537 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x107545070>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates
+2021-11-21 11:25:37,547 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x1075455e0>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates
+2021-11-21 11:25:37,553 - telegram.vendor.ptb_urllib3.urllib3.connectionpool - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None)) after connection broken by 'NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x107545730>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known')': /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates
+2021-11-21 11:25:37,556 - telegram.ext.updater - ERROR - Error while getting Updates: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x107545880>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-11-21 11:25:37,557 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 140, in _new_conn
+    conn = connection.create_connection(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/connection.py", line 60, in create_connection
+    for res in socket.getaddrinfo(host, port, family, socket.SOCK_STREAM):
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/socket.py", line 953, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+socket.gaierror: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 614, in urlopen
+    httplib_response = self._make_request(conn, method, url,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 360, in _make_request
+    self._validate_conn(conn)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 857, in _validate_conn
+    super(HTTPSConnectionPool, self)._validate_conn(conn)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 289, in _validate_conn
+    conn.connect()
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 284, in connect
+    conn = self._new_conn()
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connection.py", line 149, in _new_conn
+    raise NewConnectionError(
+telegram.vendor.ptb_urllib3.urllib3.exceptions.NewConnectionError: <telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x107545880>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 259, in _request_wrapper
+    resp = self._con_pool.request(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 68, in request
+    return self.request_encode_body(method, url, fields=fields,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/request.py", line 148, in request_encode_body
+    return self.urlopen(method, url, **extra_kw)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/poolmanager.py", line 244, in urlopen
+    response = conn.urlopen(method, u.request_uri, **kw)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 691, in urlopen
+    return self.urlopen(method, url, body, headers, retries,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/connectionpool.py", line 665, in urlopen
+    retries = retries.increment(method, url, error=e, _pool=self,
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/vendor/ptb_urllib3/urllib3/util/retry.py", line 376, in increment
+    raise MaxRetryError(_pool, url, error or ResponseError(cause))
+telegram.vendor.ptb_urllib3.urllib3.exceptions.MaxRetryError: HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x107545880>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 265, in _request_wrapper
+    raise NetworkError(f'urllib3 HTTPError {error}') from error
+telegram.error.NetworkError: urllib3 HTTPError HTTPSConnectionPool(host='api.telegram.org', port=443): Max retries exceeded with url: /bot2056386592:AAEiRiW355BIOejoKAkvJKQN4hTK4aVlHMk/getUpdates (Caused by NewConnectionError('<telegram.vendor.ptb_urllib3.urllib3.connection.VerifiedHTTPSConnection object at 0x107545880>: Failed to establish a new connection: [Errno 8] nodename nor servname provided, or not known'))
+2021-11-21 12:59:04,732 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 12:59:04,742 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 13:01:10,788 - bot - INFO - START bot
+2021-11-21 13:01:10,790 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 13:31:38,761 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 13:31:38,765 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 15:37:32,788 - bot - INFO - START bot
+2021-11-21 15:37:32,789 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 15:43:56,722 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 15:43:56,723 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 15:43:59,217 - bot - INFO - START bot
+2021-11-21 15:43:59,218 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 15:44:53,771 - bot - WARNING - Update "{'message': {'new_chat_photo': [], 'group_chat_created': False, 'date': 1637498693, 'chat': {'type': 'private', 'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'id': 63455677, 'first_name': 'Elena'}, 'caption_entities': [], 'entities': [], 'message_id': 841, 'supergroup_chat_created': False, 'channel_chat_created': False, 'new_chat_members': [], 'delete_chat_photo': False, 'photo': [], 'text': 'how to test/', 'from': {'first_name': 'Elena', 'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'id': 63455677, 'is_bot': False, 'language_code': 'ru'}}, 'update_id': 423455276}" caused error "urllib3 HTTPError ('Connection aborted.', ConnectionResetError(54, 'Connection reset by peer'))"
+2021-11-21 15:45:32,378 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 15:45:32,379 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 15:45:37,134 - bot - INFO - START bot
+2021-11-21 15:45:37,135 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 15:45:59,467 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 15:45:59,468 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 15:46:23,527 - bot - INFO - START bot
+2021-11-21 15:46:23,527 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 15:48:03,385 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 15:48:03,386 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 15:48:17,704 - bot - INFO - START bot
+2021-11-21 15:48:17,705 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 15:54:17,373 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 15:54:17,375 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 15:57:31,373 - bot - INFO - START bot
+2021-11-21 15:57:31,378 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 16:37:34,223 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 16:37:34,227 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 16:40:20,703 - bot - INFO - START bot
+2021-11-21 16:40:20,704 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 16:40:22,789 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 16:40:22,790 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 16:47:36,020 - bot - INFO - START bot
+2021-11-21 16:47:36,022 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 16:49:18,957 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 16:49:18,958 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 16:49:47,824 - bot - INFO - START bot
+2021-11-21 16:49:47,824 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 16:51:23,280 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 16:51:23,281 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 16:58:42,924 - bot - INFO - START bot
+2021-11-21 16:58:42,928 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 17:01:27,377 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 42, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 17:01:29,240 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 42, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 17:01:30,463 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 42, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 17:01:32,159 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 42, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 17:01:33,437 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 42, in characters_page_callback
+    if items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 17:01:35,127 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 52, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Message is not modified: specified new message content and reply markup are exactly the same as a current content and reply markup of the message
+2021-11-21 18:24:16,939 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 18:24:16,942 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 18:27:06,322 - bot - INFO - START bot
+2021-11-21 18:27:06,323 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 18:36:29,042 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/main.py", line 18, in start
+    Привет, {update.message.chat.first_name}! Я помогаю разработчикам и отвечаю на вопросы.
+AttributeError: 'NoneType' object has no attribute 'chat'
+2021-11-21 18:36:42,364 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 18:36:42,366 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 18:36:52,838 - bot - INFO - START bot
+2021-11-21 18:36:52,839 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 18:37:40,682 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 18:37:40,683 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 18:37:47,590 - bot - INFO - START bot
+2021-11-21 18:37:47,590 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 18:38:22,040 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 18:38:22,054 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 18:38:27,951 - bot - INFO - START bot
+2021-11-21 18:38:27,952 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 18:38:54,714 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 42, in characters_page_callback
+    if items[s] and items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 18:40:30,243 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 18:40:30,244 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 18:40:37,210 - bot - INFO - START bot
+2021-11-21 18:40:37,211 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 18:40:50,780 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 46, in characters_page_callback
+    if items[s] and items[s]["title"]:
+IndexError: list index out of range
+2021-11-21 18:43:01,563 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 18:43:01,564 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 18:43:05,253 - bot - INFO - START bot
+2021-11-21 18:43:05,256 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 18:43:35,913 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 18:43:35,914 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 18:46:19,816 - bot - INFO - START bot
+2021-11-21 18:46:19,863 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 18:47:58,909 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 18:47:58,910 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:00:38,435 - bot - INFO - START bot
+2021-11-21 19:00:38,436 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:01:16,795 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 56, in characters_page_callback
+    return QUERY
+NameError: name 'QUERY' is not defined
+2021-11-21 19:01:18,892 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/handle_result/__init__.py", line 56, in characters_page_callback
+    return QUERY
+NameError: name 'QUERY' is not defined
+2021-11-21 19:01:50,167 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 19:01:50,169 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:09:18,027 - bot - INFO - START bot
+2021-11-21 19:09:18,027 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:13:13,880 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 19:13:13,884 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:17:22,181 - bot - INFO - START bot
+2021-11-21 19:17:22,182 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:24:46,583 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 19:24:46,585 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:24:56,526 - bot - INFO - START bot
+2021-11-21 19:24:56,527 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:25:26,415 - bot - WARNING - Update "{'message': {'message_id': 989, 'new_chat_members': [], 'date': 1637511926, 'text': 'linux', 'delete_chat_photo': False, 'photo': [], 'channel_chat_created': False, 'caption_entities': [], 'chat': {'id': 63455677, 'type': 'private', 'username': 'ElenaSergeevna', 'first_name': 'Elena', 'last_name': 'Efimova'}, 'group_chat_created': False, 'new_chat_photo': [], 'entities': [], 'supergroup_chat_created': False, 'from': {'last_name': 'Efimova', 'username': 'ElenaSergeevna', 'is_bot': False, 'language_code': 'ru', 'id': 63455677, 'first_name': 'Elena'}}, 'update_id': 423455384}" caused error "'url'"
+2021-11-21 19:25:55,539 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 19:25:55,540 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:26:21,326 - bot - INFO - START bot
+2021-11-21 19:26:21,328 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:34:21,112 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 19:34:21,116 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:39:31,431 - bot - INFO - START bot
+2021-11-21 19:39:31,432 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:39:40,419 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 79, in ask_again_handler
+    stored_url = context.chat_data['url']
+KeyError: 'url'
+2021-11-21 19:41:19,168 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 19:41:19,170 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:42:14,358 - bot - INFO - START bot
+2021-11-21 19:42:14,358 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:42:14,645 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 81, in ask_again_handler
+    url = stored_url if stored_url != None else SectionTypes.NS[1]
+TypeError: 'SectionTypes' object is not subscriptable
+2021-11-21 19:44:26,083 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 19:44:26,084 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:44:30,847 - bot - INFO - START bot
+2021-11-21 19:44:30,847 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:44:50,594 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 19:44:50,595 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:45:16,091 - bot - INFO - START bot
+2021-11-21 19:45:16,091 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:46:57,491 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 19:46:57,492 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 19:47:57,533 - bot - INFO - START bot
+2021-11-21 19:47:57,534 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 19:58:40,492 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:58:40,494 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:58:45,578 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:58:45,579 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:58:51,652 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:58:51,653 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:58:59,307 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:58:59,309 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:59:06,184 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:59:06,184 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:59:16,394 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:59:16,396 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:59:32,074 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 19:59:32,074 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-21 20:02:17,932 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:02:17,935 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:02:39,309 - bot - INFO - START bot
+2021-11-21 20:02:39,318 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:04:01,917 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:04:01,918 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:04:50,124 - bot - INFO - START bot
+2021-11-21 20:04:50,125 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:05:56,246 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:05:56,247 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:06:12,368 - bot - INFO - START bot
+2021-11-21 20:06:12,369 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:06:52,737 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:06:52,738 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:07:05,877 - bot - INFO - START bot
+2021-11-21 20:07:05,877 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:07:53,536 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:07:53,537 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:08:09,770 - bot - INFO - START bot
+2021-11-21 20:08:09,771 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:13:19,833 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:13:19,835 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:13:44,905 - bot - INFO - START bot
+2021-11-21 20:13:44,906 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:16:45,200 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:16:45,201 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:17:13,230 - bot - INFO - START bot
+2021-11-21 20:17:13,233 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:18:23,688 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:18:23,689 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:18:31,854 - bot - INFO - START bot
+2021-11-21 20:18:31,856 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:23:14,628 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:23:14,628 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:23:27,423 - bot - INFO - START bot
+2021-11-21 20:23:27,424 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:23:48,941 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:23:48,942 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:24:44,029 - bot - INFO - START bot
+2021-11-21 20:24:44,030 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:26:44,760 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:26:44,761 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:26:49,573 - bot - INFO - START bot
+2021-11-21 20:26:49,573 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:27:09,221 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:27:09,222 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:27:41,629 - bot - INFO - START bot
+2021-11-21 20:27:41,630 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:28:33,555 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:28:33,556 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:29:06,928 - bot - INFO - START bot
+2021-11-21 20:29:06,929 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:30:28,491 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:30:28,493 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:30:41,494 - bot - INFO - START bot
+2021-11-21 20:30:41,495 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:31:40,051 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:31:40,052 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:33:51,316 - bot - INFO - START bot
+2021-11-21 20:33:51,316 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:35:54,074 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:35:54,077 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:36:00,934 - bot - INFO - START bot
+2021-11-21 20:36:00,935 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:38:42,359 - bot - WARNING - Update "{'update_id': 423455500, 'message': {'new_chat_members': [], 'date': 1637516321, 'text': 'ios', 'caption_entities': [], 'photo': [], 'group_chat_created': False, 'supergroup_chat_created': False, 'new_chat_photo': [], 'delete_chat_photo': False, 'chat': {'first_name': 'Elena', 'last_name': 'Efimova', 'id': 63455677, 'username': 'ElenaSergeevna', 'type': 'private'}, 'message_id': 1164, 'entities': [], 'channel_chat_created': False, 'from': {'first_name': 'Elena', 'is_bot': False, 'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'language_code': 'ru', 'id': 63455677}}}" caused error "list index out of range"
+2021-11-21 20:38:55,679 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:38:55,680 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:39:04,357 - bot - INFO - START bot
+2021-11-21 20:39:04,358 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:40:01,754 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:40:01,755 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:40:49,872 - bot - INFO - START bot
+2021-11-21 20:40:49,873 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:41:49,613 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:41:49,614 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:42:10,554 - bot - INFO - START bot
+2021-11-21 20:42:10,555 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:45:26,649 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:45:26,651 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:46:49,590 - bot - INFO - START bot
+2021-11-21 20:46:49,591 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:47:12,390 - bot - WARNING - Update "{'update_id': 423455537, 'message': {'message_id': 1205, 'chat': {'id': 63455677, 'username': 'ElenaSergeevna', 'first_name': 'Elena', 'last_name': 'Efimova', 'type': 'private'}, 'photo': [], 'entities': [], 'channel_chat_created': False, 'group_chat_created': False, 'text': 'tests', 'new_chat_members': [], 'date': 1637516829, 'new_chat_photo': [], 'caption_entities': [], 'supergroup_chat_created': False, 'delete_chat_photo': False, 'from': {'last_name': 'Efimova', 'is_bot': False, 'id': 63455677, 'language_code': 'ru', 'first_name': 'Elena', 'username': 'ElenaSergeevna'}}}" caused error "type object 'ConversationHandler' has no attribute 'STOP'"
+2021-11-21 20:47:38,293 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:47:38,294 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:48:14,337 - bot - INFO - START bot
+2021-11-21 20:48:14,337 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:49:55,835 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:49:55,836 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:50:08,473 - bot - INFO - START bot
+2021-11-21 20:50:08,474 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 20:56:48,962 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 20:56:48,963 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 20:59:34,284 - bot - INFO - START bot
+2021-11-21 20:59:34,287 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:01:57,222 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:01:57,223 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 21:03:47,661 - bot - INFO - START bot
+2021-11-21 21:03:47,662 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:04:53,519 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/conversationhandler.py", line 626, in handle_update
+    new_state = handler.handle_update(update, dispatcher, check_result, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 92, in characters_page_callback
+    query.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/callbackquery.py", line 216, in edit_message_text
+    return self.message.edit_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 1935, in edit_text
+    return self.bot.edit_message_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2582, in edit_message_text
+    return self._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 332, in _message
+    result = self._post(endpoint, data, timeout=timeout, api_kwargs=api_kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 279, in _request_wrapper
+    raise BadRequest(message)
+telegram.error.BadRequest: Can't parse entities: can't find end of the entity starting at byte offset 492
+2021-11-21 21:05:56,709 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:05:56,710 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 21:24:24,095 - bot - INFO - START bot
+2021-11-21 21:24:24,096 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:24:33,031 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/main.py", line 32, in start
+    context.bot.message.reply_text(start_string,
+AttributeError: 'ExtBot' object has no attribute 'message'
+2021-11-21 21:25:26,500 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:25:26,501 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 21:25:43,532 - bot - INFO - START bot
+2021-11-21 21:25:43,532 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:25:49,450 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/main.py", line 33, in start
+    context.bot.message.reply_text(
+AttributeError: 'ExtBot' object has no attribute 'message'
+2021-11-21 21:26:33,466 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:26:33,467 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 21:26:49,781 - bot - INFO - START bot
+2021-11-21 21:26:49,781 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:26:56,593 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/main.py", line 33, in start
+    update.message.reply_text(
+TypeError: reply_text() got an unexpected keyword argument 'txt'
+2021-11-21 21:27:05,321 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:27:05,322 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 21:27:10,930 - bot - INFO - START bot
+2021-11-21 21:27:10,930 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:27:18,953 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/main.py", line 33, in start
+    update.message.reply_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 322, in _message
+    data['reply_markup'] = reply_markup.to_json()
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/base.py", line 104, in to_json
+    return json.dumps(self.to_dict())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type function is not JSON serializable
+2021-11-21 21:29:33,183 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:29:33,184 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 21:29:40,223 - telegram.ext.updater - WARNING - Exiting immediately!
+2021-11-21 21:29:42,934 - bot - INFO - START bot
+2021-11-21 21:29:42,936 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:29:49,623 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/main.py", line 30, in start
+    update.message.reply_text(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/message.py", line 764, in reply_text
+    return self.bot.send_message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 513, in send_message
+    return self._message(  # type: ignore[return-value]
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 199, in _message
+    result = super()._message(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 322, in _message
+    data['reply_markup'] = reply_markup.to_json()
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/base.py", line 104, in to_json
+    return json.dumps(self.to_dict())
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 199, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 257, in iterencode
+    return _iterencode(o, 0)
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/json/encoder.py", line 179, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type function is not JSON serializable
+2021-11-21 21:29:51,870 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:29:51,870 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 21:36:05,089 - bot - INFO - START bot
+2021-11-21 21:36:05,090 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:41:58,958 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:41:58,960 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 21:41:59,177 - telegram.ext.updater - WARNING - Exiting immediately!
+2021-11-21 21:42:04,751 - bot - INFO - START bot
+2021-11-21 21:42:04,752 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:43:49,827 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:43:49,828 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-21 21:44:03,097 - bot - INFO - START bot
+2021-11-21 21:44:03,098 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-21 21:45:57,668 - bot - WARNING - Update "{'message': {'supergroup_chat_created': False, 'photo': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'new_chat_members': [], 'chat': {'id': 249616723, 'type': 'private', 'first_name': 'Евгений'}, 'message_id': 1306, 'text': 'React', 'group_chat_created': False, 'entities': [], 'date': 1637520356, 'channel_chat_created': False, 'caption_entities': [], 'from': {'is_bot': False, 'id': 249616723, 'first_name': 'Евгений', 'language_code': 'ru'}}, 'update_id': 423455616}" caused error "list index out of range"
+2021-11-21 21:47:21,821 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-21 21:47:21,822 - apscheduler.scheduler - INFO - Scheduler has been shut down

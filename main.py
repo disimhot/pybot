@@ -4,73 +4,51 @@ import telebot
 import json
 from bs4 import BeautifulSoup
 from flask import Flask, request
-from telegram.ext import CommandHandler, MessageHandler, Filters
+from telegram.ext import CommandHandler, MessageHandler, Filters, ConversationHandler
 from bot.helper.bot_commands import BotCommands
+from bot.messages import *
+from bot.search import *
 from bot import dispatcher, updater, LOGGER
-import requests
+from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 
 server = Flask(__name__)
 
-# @bot.message_handler(func=lambda msg: msg.text is not None)
-# def reply_to_message(message):
-#     # r = requests.get('https://stackoverflow.com/oauth?client_id=21284')
-#     print('message', message.text)
-#     l = f'https://api.stackexchange.com/2.3/search?order=desc&sort=activity&intitle={message.text}&site=sqa'
-#     print(l)
-#     response = requests.get(l)
-#     data = response.json()
-#     items = data['items']
-#     markup = f'<i>{items[:2]}</i>'
-#     print(markup)
-#     bot.send_message(message.chat.id, markup, parse_mode='html')
+
+def start(update, context):
+    start_string = f"""
+Привет, {update.message.chat.first_name}! Я помогаю разработчикам и отвечаю на вопросы.
+Я очень постараюсь найти для тебя всю информацию на StackOverflow.
+Если нужна помощь, нажми /{BotCommands.HelpCommand}
+Если хочешь задать вопрос, то прошу нажать /{BotCommands.SearchCommand}
+    """
+    sendMessage(start_string, context.bot, update)
 
 
-def start():
-    pass
-
-
-def bot_help(update, context):
+def help(update, context):
     help_string = f'''
+/{BotCommands.StartCommand}: Начать работу
 /{BotCommands.HelpCommand}: Справка по командам бота
 /{BotCommands.SearchCommand}: Искать вопрос на StackOverflow
+/{BotCommands.StopCommand}: Остановить бота
+/{BotCommands.CancelCommand}: Остановить беседу
 '''
-    context.bot.sendMessage(update.message.chat_id,
-                            reply_to_message_id=update.message.message_id,
-                            text=help_string, parse_mode='HTMl')
-def echo(update, context):
-    """Echo the user message."""
-    update.message.reply_text(update.message.text)
+    sendMessage(help_string, context.bot, update)
 
 def main():
     start_handler = CommandHandler(BotCommands.StartCommand, start)
-    help_handler = CommandHandler(BotCommands.HelpCommand, bot_help)
+    help_handler = CommandHandler(BotCommands.HelpCommand, help)
+    stop_handler = CommandHandler(BotCommands.StopCommand, stop)
     dispatcher.add_handler(start_handler)
     dispatcher.add_handler(help_handler)
-    dispatcher.add_handler(MessageHandler(Filters.text, echo))
+    dispatcher.add_handler(stop_handler)
     LOGGER.info('START bot')
     updater.start_polling()
     updater.idle()
 
 
+def stop():
+    updater.stop()
+
+
 if __name__ == '__main__':
     main()
-
-
-# bot.infinity_polling()
-
-# @server.route('/' + config.token, methods=['POST'])
-# def getMessage():
-#     bot.process_new_updates(
-#         [telebot.types.Update.de_json(request.stream.read().decode("utf-8"))])
-#     return "!", 200
-
-
-# @server.route("/")
-# def webhook():
-#     bot.remove_webhook()
-#     bot.set_webhook(url='https://ees-bot.herokuapp.com/' + config.token)  #
-#     return "!", 200
-
-
-# if __name__ == "__main__":
-#     server.run(host="0.0.0.0", port=int(os.environ.get('PORT', 5000)))

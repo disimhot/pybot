@@ -1,0 +1,61 @@
+2021-11-20 16:05:47,614 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 16:05:47,615 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 16:05:57,240 - bot - INFO - START bot
+2021-11-20 16:05:57,240 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 16:06:02,588 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 10, in search
+    custom_keyboard = [sect[0] for sect in [SectionTypes]]
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 10, in <listcomp>
+    custom_keyboard = [sect[0] for sect in [SectionTypes]]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py", line 432, in __getitem__
+    return cls._member_map_[name]
+KeyError: 0
+2021-11-20 16:06:04,134 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 10, in search
+    custom_keyboard = [sect[0] for sect in [SectionTypes]]
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 10, in <listcomp>
+    custom_keyboard = [sect[0] for sect in [SectionTypes]]
+  File "/Library/Frameworks/Python.framework/Versions/3.9/lib/python3.9/enum.py", line 432, in __getitem__
+    return cls._member_map_[name]
+KeyError: 0
+2021-11-20 16:08:13,108 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 16:08:13,109 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 16:08:48,212 - bot - INFO - START bot
+2021-11-20 16:08:48,213 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 16:08:54,362 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/bot/search/__init__.py", line 10, in search
+    enum_list = list(map(int, SectionTypes))
+TypeError: int() argument must be a string, a bytes-like object or a number, not 'SectionTypes'
+2021-11-20 16:09:11,766 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 16:09:11,767 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 16:12:33,923 - bot - INFO - START bot
+2021-11-20 16:12:33,924 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 16:13:44,617 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 16:13:44,618 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 16:14:43,110 - bot - INFO - START bot
+2021-11-20 16:14:43,111 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 16:34:08,875 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 16:34:08,877 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 16:34:21,054 - bot - INFO - START bot
+2021-11-20 16:34:21,054 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 16:38:03,010 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 16:38:03,011 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-20 16:40:39,043 - bot - INFO - START bot
+2021-11-20 16:40:39,043 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-20 16:41:17,751 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-20 16:41:17,752 - apscheduler.scheduler - INFO - Scheduler has been shut down
