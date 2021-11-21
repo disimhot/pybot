@@ -34,6 +34,7 @@ def help(update, context):
 '''
     sendMessage(help_string, context.bot, update)
 
+
 def main():
     start_handler = CommandHandler(BotCommands.StartCommand, start)
     help_handler = CommandHandler(BotCommands.HelpCommand, help)
