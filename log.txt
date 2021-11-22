@@ -1719,3 +1719,11 @@ TypeError: stop() takes 0 positional arguments but 2 were given
 2021-11-22 11:24:38,507 - apscheduler.scheduler - INFO - Scheduler started
 2021-11-22 11:25:05,970 - apscheduler.scheduler - INFO - Scheduler has been shut down
 2021-11-22 11:25:26,723 - telegram.ext.updater - WARNING - Exiting immediately!
+2021-11-22 11:40:08,315 - bot - INFO - START bot
+2021-11-22 11:40:08,316 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:41:18,117 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:41:18,120 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:42:35,895 - bot - INFO - START bot
+2021-11-22 11:42:35,898 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:44:06,327 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:44:06,328 - apscheduler.scheduler - INFO - Scheduler has been shut down

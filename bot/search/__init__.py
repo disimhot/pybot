@@ -92,7 +92,7 @@ search_handler = ConversationHandler(
             CommandHandler(BotCommands.SearchCommand, search),
         ],
     },
-    fallbacks=[CommandHandler(BotCommands.CancelCommand, cancel)]
+    fallbacks=[CommandHandler(BotCommands.CancelCommand, cancel)],
 )
 
 dispatcher.add_handler(search_handler)
