@@ -7,7 +7,6 @@ from flask import Flask, request
 from telegram.ext import CommandHandler, MessageHandler, Filters, ConversationHandler
 from bot.helper.bot_commands import BotCommands
 from bot.messages import *
-from bot.search import *
 from bot import dispatcher, updater, LOGGER
 from telegram import InlineKeyboardButton, InlineKeyboardMarkup
 

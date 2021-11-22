@@ -16,3 +16,4 @@ toml==0.10.2
 urllib3==1.26.7
 Werkzeug==2.0.2
 python-telegram-bot==12.4.2
+python-telegram-bot-pagination==0.0.2
