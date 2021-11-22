@@ -1,7 +1,3 @@
-import config
-import os
-import telebot
-import json
 from bs4 import BeautifulSoup
 from flask import Flask, request
 from telegram.ext import CommandHandler, MessageHandler, Filters, ConversationHandler
@@ -15,12 +11,12 @@ server = Flask(__name__)
 
 
 def start(update, context):
-    start_string = f"""
+    start_string = f'''
 Привет, {update.message.chat.first_name}! Я помогаю разработчикам и отвечаю на вопросы.
 Я очень постараюсь найти для тебя всю информацию на StackOverflow.
 Если нужна помощь, нажми /{BotCommands.HelpCommand}
 Если хочешь задать вопрос, то прошу нажать /{BotCommands.SearchCommand}
-    """
+'''
     sendMessage(start_string, context.bot, update)
 
 
