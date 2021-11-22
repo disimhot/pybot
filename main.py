@@ -47,7 +47,7 @@ def main():
     updater.idle()
 
 
-def stop():
+def stop(_update, _context):
     updater.stop()
 
 

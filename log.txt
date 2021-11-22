@@ -1699,3 +1699,23 @@ telegram.error.Conflict: Conflict: terminated by other getUpdates request; make 
 2021-11-22 11:17:47,307 - apscheduler.scheduler - INFO - Scheduler started
 2021-11-22 11:18:59,675 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2021-11-22 11:18:59,676 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:21:24,838 - bot - INFO - START bot
+2021-11-22 11:21:24,839 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:21:50,518 - bot - WARNING - Update "{'update_id': 423455674, 'message': {'entities': [], 'new_chat_photo': [], 'chat': {'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'id': 63455677, 'type': 'private', 'first_name': 'Elena'}, 'delete_chat_photo': False, 'caption_entities': [], 'message_id': 1415, 'date': 1637569310, 'channel_chat_created': False, 'text': 'sdfnmd,f', 'supergroup_chat_created': False, 'group_chat_created': False, 'new_chat_members': [], 'photo': [], 'from': {'first_name': 'Elena', 'username': 'ElenaSergeevna', 'language_code': 'ru', 'last_name': 'Efimova', 'id': 63455677, 'is_bot': False}}}" caused error "'url'"
+2021-11-22 11:21:57,803 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:21:57,804 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:22:06,826 - bot - INFO - START bot
+2021-11-22 11:22:06,827 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:23:45,287 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+TypeError: stop() takes 0 positional arguments but 2 were given
+2021-11-22 11:24:35,266 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:24:35,267 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:24:38,506 - bot - INFO - START bot
+2021-11-22 11:24:38,507 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:25:05,970 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:25:26,723 - telegram.ext.updater - WARNING - Exiting immediately!

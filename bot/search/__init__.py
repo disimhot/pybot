@@ -82,14 +82,14 @@ URL, QUERY, RESULT = range(3)
 search_handler = ConversationHandler(
     entry_points=[
         CommandHandler(BotCommands.SearchCommand, search),
-        MessageHandler(Filters.text & ~Filters.command, query_handler)
     ],
     states={
         URL: [MessageHandler(Filters.regex('(Section|раздел)'), url_handler)],
         QUERY: [MessageHandler(Filters.text & ~Filters.command, query_handler)],
         RESULT: [
             CallbackQueryHandler(characters_page_callback, pattern='^page#'),
-            MessageHandler(Filters.text & ~Filters.command, query_handler)
+            MessageHandler(Filters.text & ~Filters.command, query_handler),
+            CommandHandler(BotCommands.SearchCommand, search),
         ],
     },
     fallbacks=[CommandHandler(BotCommands.CancelCommand, cancel)]
