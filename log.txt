@@ -1530,3 +1530,172 @@ TypeError: Object of type function is not JSON serializable
 2021-11-21 21:45:57,668 - bot - WARNING - Update "{'message': {'supergroup_chat_created': False, 'photo': [], 'new_chat_photo': [], 'delete_chat_photo': False, 'new_chat_members': [], 'chat': {'id': 249616723, 'type': 'private', 'first_name': 'Евгений'}, 'message_id': 1306, 'text': 'React', 'group_chat_created': False, 'entities': [], 'date': 1637520356, 'channel_chat_created': False, 'caption_entities': [], 'from': {'is_bot': False, 'id': 249616723, 'first_name': 'Евгений', 'language_code': 'ru'}}, 'update_id': 423455616}" caused error "list index out of range"
 2021-11-21 21:47:21,821 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
 2021-11-21 21:47:21,822 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:07:23,663 - bot - INFO - START bot
+2021-11-22 11:07:23,666 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:07:51,281 - bot - WARNING - Update "{'message': {'channel_chat_created': False, 'group_chat_created': False, 'message_id': 1340, 'entities': [], 'new_chat_members': [], 'new_chat_photo': [], 'supergroup_chat_created': False, 'photo': [], 'text': 'android', 'chat': {'type': 'private', 'first_name': 'Elena', 'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'id': 63455677}, 'delete_chat_photo': False, 'date': 1637568470, 'caption_entities': [], 'from': {'first_name': 'Elena', 'is_bot': False, 'language_code': 'ru', 'id': 63455677, 'last_name': 'Efimova', 'username': 'ElenaSergeevna'}}, 'update_id': 423455637}" caused error "list index out of range"
+2021-11-22 11:08:20,876 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/dispatcher.py", line 555, in process_update
+    handler.handle_update(update, self, check, context)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/handler.py", line 198, in handle_update
+    return self.callback(update, context)
+TypeError: stop() takes 0 positional arguments but 2 were given
+2021-11-22 11:09:15,471 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:09:15,473 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:09:26,719 - bot - INFO - START bot
+2021-11-22 11:09:26,720 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:09:42,480 - bot - WARNING - Update "{'update_id': 423455641, 'message': {'caption_entities': [], 'new_chat_members': [], 'group_chat_created': False, 'photo': [], 'delete_chat_photo': False, 'message_id': 1347, 'date': 1637568581, 'chat': {'type': 'private', 'id': 63455677, 'first_name': 'Elena', 'username': 'ElenaSergeevna', 'last_name': 'Efimova'}, 'supergroup_chat_created': False, 'new_chat_photo': [], 'text': 'android', 'entities': [], 'channel_chat_created': False, 'from': {'first_name': 'Elena', 'last_name': 'Efimova', 'language_code': 'ru', 'id': 63455677, 'is_bot': False, 'username': 'ElenaSergeevna'}}}" caused error "list index out of range"
+2021-11-22 11:12:12,348 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:12:12,349 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:12:15,262 - bot - INFO - START bot
+2021-11-22 11:12:15,264 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:12:54,932 - bot - WARNING - Update "{'update_id': 423455644, 'message': {'text': 'android', 'chat': {'username': 'ElenaSergeevna', 'last_name': 'Efimova', 'first_name': 'Elena', 'type': 'private', 'id': 63455677}, 'new_chat_photo': [], 'photo': [], 'delete_chat_photo': False, 'new_chat_members': [], 'channel_chat_created': False, 'entities': [], 'group_chat_created': False, 'message_id': 1353, 'caption_entities': [], 'supergroup_chat_created': False, 'date': 1637568774, 'from': {'language_code': 'ru', 'first_name': 'Elena', 'is_bot': False, 'last_name': 'Efimova', 'id': 63455677, 'username': 'ElenaSergeevna'}}}" caused error "list index out of range"
+2021-11-22 11:13:42,059 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:13:42,060 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:13:47,600 - bot - INFO - START bot
+2021-11-22 11:13:47,600 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:14:45,773 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:14:45,775 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:14:52,679 - bot - INFO - START bot
+2021-11-22 11:14:52,682 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:15:03,418 - bot - ERROR - Message text is empty
+2021-11-22 11:15:29,135 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:15:29,136 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:15:30,383 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:15:30,383 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:15:34,253 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:15:37,907 - bot - INFO - START bot
+2021-11-22 11:15:37,908 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:15:42,701 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:15:42,702 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:15:47,873 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:15:47,874 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:15:54,018 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:15:54,019 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:16:00,092 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:16:00,093 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:16:01,699 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:16:15,440 - bot - INFO - START bot
+2021-11-22 11:16:15,440 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:16:19,725 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:16:19,726 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:16:25,351 - telegram.ext.updater - ERROR - Error while getting Updates: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:16:25,352 - telegram.ext.dispatcher - ERROR - No error handlers are registered, logging exception.
+Traceback (most recent call last):
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 646, in _network_loop_retry
+    if not action_cb():
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/updater.py", line 597, in polling_action_cb
+    updates = self.bot.get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/ext/extbot.py", line 222, in get_updates
+    updates = super().get_updates(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 130, in decorator
+    result = func(*args, **kwargs)
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 2861, in get_updates
+    self._post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/bot.py", line 295, in _post
+    return self.request.post(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 361, in post
+    result = self._request_wrapper(
+  File "/Users/elenaefimova/Documents/Github/pybot/venv/lib/python3.9/site-packages/telegram/utils/request.py", line 283, in _request_wrapper
+    raise Conflict(message)
+telegram.error.Conflict: Conflict: terminated by other getUpdates request; make sure that only one bot instance is running
+2021-11-22 11:16:31,692 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:16:31,696 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:17:04,383 - bot - INFO - START bot
+2021-11-22 11:17:04,384 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:17:36,975 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:17:36,977 - apscheduler.scheduler - INFO - Scheduler has been shut down
+2021-11-22 11:17:47,306 - bot - INFO - START bot
+2021-11-22 11:17:47,307 - apscheduler.scheduler - INFO - Scheduler started
+2021-11-22 11:18:59,675 - telegram.ext.updater - INFO - Received signal 2 (SIGINT), stopping...
+2021-11-22 11:18:59,676 - apscheduler.scheduler - INFO - Scheduler has been shut down

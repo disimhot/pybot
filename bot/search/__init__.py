@@ -10,7 +10,7 @@ from bot.messages import *
 from bot.handle_result import *
 import requests
 
-START_PAGE = 1
+START_PAGE = 0
 
 
 def search(update, context):
@@ -70,7 +70,7 @@ def query_handler(update, context):
 def cancel(update, context):
     cancel_string = f'''
 Спасибо за классные вопросы!
-Спрашивай всегда при помощи /{BotCommands.SearchCommand}
+Задавай их при помощи команды /{BotCommands.SearchCommand}
             '''
     sendMessage(cancel_string,
                 context.bot, update)

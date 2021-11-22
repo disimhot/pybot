@@ -12,7 +12,8 @@ def show_results(start_page, items, context, update):
     responses_list = []
     context.chat_data['items'] = items
     page_count = math.ceil(len(items) / PER_PAGE)
-    end_page = PER_PAGE * start_page
+    max_pages_len = (PER_PAGE * (1 + start_page))
+    end_page = len(items) if len(items) < max_pages_len  else max_pages_len
 
     for s in range(start_page, end_page):
         if items[s]["title"]:
@@ -24,7 +25,6 @@ def show_results(start_page, items, context, update):
         current_page=1,
         data_pattern='page#{page}'
     )
-    one_more_question = f'\n\nХочешь задать еще один вопрос? Нажимай /{BotCommands.SearchCommand}'
     sendMarkupWithPagination(responses, paginator.markup, context.bot, update)
 
 
