@@ -93,6 +93,7 @@ search_handler = ConversationHandler(
         ],
     },
     fallbacks=[CommandHandler(BotCommands.CancelCommand, cancel)],
+    run_async=True
 )
 
 dispatcher.add_handler(search_handler)
